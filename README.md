@@ -42,6 +42,13 @@ Para cerrarla, pulsa **⏻ Cerrar la app** en el menú de la izquierda (cerrar l
 *Configuración de Windows › Aplicaciones › Aplicaciones instaladas › Presupuestea › Desinstalar.*
 Tus datos **no se borran**: siguen en `%LOCALAPPDATA%\Presupuestea\datos` por si vuelves a instalarla.
 
+## Documentación
+
+- **[Guía de usuario](GUIA.md)**: todo paso a paso, desde la instalación hasta el cuadro de mando.
+- **[Política de privacidad](PRIVACIDAD.md)** · **[Condiciones de uso](CONDICIONES.md)** (borradores).
+
+También están dentro de la app, en **Ayuda**.
+
 ## Versión preliminar
 
 Esta es una versión preliminar. Si encuentras un problema o tienes una sugerencia, abre una
