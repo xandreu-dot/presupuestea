@@ -9,7 +9,7 @@ Contacto: sección de incidencias de **github.com/xandreu-dot/presupuestea/issue
 
 ## 2. Qué datos trata la app y dónde
 
-Presupuestea funciona **en tu ordenador**. Los datos que introduces o importas (movimientos bancarios, categorías, presupuestos, notas y actas) se guardan **solo en tu equipo**, en la carpeta `%LOCALAPPDATA%\Presupuestea\datos`.
+Presupuestea funciona **en tu ordenador**. Los datos que introduces o importas (movimientos bancarios, categorías, presupuestos, notas y actas) se guardan **solo en tu equipo**: en Windows, en la carpeta `%LOCALAPPDATA%\Presupuestea\datos`; en Mac, en `~/Library/Application Support/Presupuestea/datos`.
 
 - El desarrollador **no recibe, no almacena y no tiene acceso** a tus datos.
 - La app **no envía estadísticas de uso** ni datos de diagnóstico a ningún servidor.

@@ -4,6 +4,8 @@ Esta guía explica, paso a paso, cómo usar la app. No hace falta saber nada de 
 
 ## 1. Instalar
 
+### En Windows
+
 1. Entra en la página de descarga: **github.com/xandreu-dot/presupuestea** y pulsa **Descargar para Windows**.
 2. En la página que se abre, haz clic en el archivo **Instalar-Presupuestea-….exe** (apartado *Assets*). Se guarda en tu carpeta **Descargas**.
 3. Abre el archivo con doble clic.
@@ -12,7 +14,18 @@ Esta guía explica, paso a paso, cómo usar la app. No hace falta saber nada de 
 
 La app se abre en tu navegador (Chrome, Edge…). Desde entonces la abres con el icono **Presupuestea** del Escritorio o del menú Inicio.
 
-**Para cerrarla**, pulsa **⏻ Cerrar la app** abajo en el menú de la izquierda. Cerrar la pestaña del navegador no la detiene.
+### En Mac
+
+1. En la página de descarga, descarga la versión de tu Mac. Para saber cuál es: menú  › **Acerca de este Mac**.
+   - Si pone **Chip Apple M1, M2, M3…**: descarga **Presupuestea-…-Mac-AppleSilicon.dmg**.
+   - Si pone **Procesador Intel**: descarga **Presupuestea-…-Mac-Intel.dmg**.
+   - Necesitas macOS 14 o posterior (chip Apple) o macOS 15 o posterior (Intel): lo ves en la misma ventana.
+2. Abre el archivo descargado y **arrastra el icono de Presupuestea a la carpeta Aplicaciones**.
+3. Abre **Aplicaciones** y haz doble clic en **Presupuestea**. La primera vez el Mac dirá que **no ha podido verificar** la app (todavía no tiene firma de Apple; es normal). Pulsa **Hecho**.
+4. Abre **Ajustes del Sistema › Privacidad y seguridad**, baja hasta el final y, donde pone que se ha bloqueado «Presupuestea», pulsa **Abrir igualmente**. Confirma con tu contraseña o Touch ID.
+5. A partir de entonces se abre normalmente desde **Aplicaciones** o el Dock.
+
+**Para cerrarla** (Windows y Mac), pulsa **⏻ Cerrar la app** abajo en el menú de la izquierda. Cerrar la pestaña del navegador no la detiene.
 
 ## 2. Primer uso: el asistente
 
@@ -85,20 +98,21 @@ Solo cuentan los movimientos **aprobados** y que **computan**. Los traspasos ent
 
 La app puede usar una inteligencia artificial que **funciona dentro de tu ordenador** (nada sale de él) para proponer la categoría de comercios que nunca has clasificado.
 
-1. Instala **Ollama** (gratuito) desde **ollama.com/download**: abre el archivo y pulsa **Install**.
+1. Instala **Ollama** (gratuito) desde **ollama.com/download** (hay versión para Windows y para Mac) y ábrelo.
 2. En el asistente (o al crear un espacio nuevo), pulsa **Descargar el modelo**. Son unos 5 GB y puede tardar entre 10 y 30 minutos.
 
 Se recomienda un ordenador con 16 GB de memoria. Si Ollama no está abierto, la app funciona igual, sin IA.
 
 ## 9. Copias, desinstalar y problemas frecuentes
 
-- **Dónde están mis datos**: en la carpeta `%LOCALAPPDATA%\Presupuestea\datos` de tu usuario de Windows. Cada vez que abres la app se guarda una copia de seguridad automática (se conservan las 30 últimas).
+- **Dónde están mis datos**: en Windows, en la carpeta `%LOCALAPPDATA%\Presupuestea\datos`; en Mac, en `~/Library/Application Support/Presupuestea/datos`. Cada vez que abres la app se guarda una copia de seguridad automática (se conservan las 30 últimas).
 - **Copia manual**: cierra la app y copia esa carpeta a un disco externo o a tu nube.
-- **Desinstalar**: *Configuración de Windows › Aplicaciones › Aplicaciones instaladas › Presupuestea › Desinstalar*. Tus datos **no se borran**.
+- **Desinstalar**: en Windows, *Configuración › Aplicaciones › Aplicaciones instaladas › Presupuestea › Desinstalar*; en Mac, arrastra **Presupuestea** de **Aplicaciones** a la Papelera. Tus datos **no se borran**.
 
 **Problemas frecuentes**
 
 - *No se abre la app*: espera unos segundos (la primera vez tarda más). Si sigue sin abrirse, reinicia el ordenador y vuelve a probar.
+- *En Mac dice que la app «está dañada»*: pasa a veces con programas sin firma de Apple. Abre la app **Terminal**, pega `xattr -cr /Applications/Presupuestea.app`, pulsa Intro y vuelve a abrirla.
 - *«El puerto 8770 lo está usando otro programa»*: cierra el otro programa o reinicia el ordenador.
 - *Un extracto da error*: comprueba que es de Banco Sabadell, CaixaBank o Revolut y que lo has descargado en Excel o CSV.
 - *La IA no propone nada*: comprueba en **Ajustes** que Ollama está en marcha y el modelo descargado.

@@ -3,9 +3,9 @@
 **Tu presupuesto familiar, claro y al día.** Importa los movimientos de tus bancos, la app los clasifica sola
 y te enseña cada mes cómo vas frente a tu presupuesto.
 
-### [⬇ Descargar para Windows](https://github.com/xandreu-dot/presupuestea/releases/latest)
+### [⬇ Descargar para Windows o Mac](https://github.com/xandreu-dot/presupuestea/releases/latest)
 
-> Windows 10 u 11 (64 bits) · unos 300 MB libres · versión preliminar
+> **Windows** 10 u 11 (64 bits) · **Mac** con chip Apple o Intel (chip Apple: macOS 14 o posterior · Intel: macOS 15 o posterior) · unos 300 MB libres · versión preliminar
 
 ---
 
@@ -19,7 +19,9 @@ y te enseña cada mes cómo vas frente a tu presupuesto.
 
 ## Instalación paso a paso
 
-1. Pulsa **[Descargar para Windows](https://github.com/xandreu-dot/presupuestea/releases/latest)** y, en la página que se abre,
+### Windows
+
+1. Pulsa **[Descargar para Windows o Mac](https://github.com/xandreu-dot/presupuestea/releases/latest)** y, en la página que se abre,
    haz clic en el archivo **`Instalar-Presupuestea-….exe`** (apartado *Assets*). Se descarga en tu carpeta **Descargas**.
 2. Abre el archivo descargado (doble clic).
 3. Es posible que Windows muestre **«Windows protegió su PC»**. Es normal en programas nuevos que aún no tienen firma digital:
@@ -28,7 +30,15 @@ y te enseña cada mes cómo vas frente a tu presupuesto.
 5. La app se abre en tu navegador. La primera vez, un **asistente de 3 minutos** te ayuda a crear tu espacio, tus cuentas y tus categorías.
 
 Para volver a abrirla, usa el icono **Presupuestea** del Escritorio o del menú Inicio.
-Para cerrarla, pulsa **⏻ Cerrar la app** en el menú de la izquierda (cerrar la pestaña del navegador no la detiene).
+
+### Mac
+
+1. En la [página de descarga](https://github.com/xandreu-dot/presupuestea/releases/latest), descarga la versión de tu Mac
+   (menú  › *Acerca de este Mac*): **…-Mac-AppleSilicon.dmg** si tiene chip Apple (M1, M2…) o **…-Mac-Intel.dmg** si tiene procesador Intel.
+2. Abre el archivo y **arrastra Presupuestea a la carpeta Aplicaciones**.
+3. Ábrela desde Aplicaciones. La primera vez el Mac dirá que no ha podido verificarla (aún no tiene firma de Apple): pulsa **Hecho**,
+   ve a **Ajustes del Sistema › Privacidad y seguridad** y, abajo, pulsa **Abrir igualmente**.
+En los dos sistemas, para cerrarla pulsa **⏻ Cerrar la app** en el menú de la izquierda (cerrar la pestaña del navegador no la detiene).
 
 ## Opcional
 
@@ -39,8 +49,11 @@ Para cerrarla, pulsa **⏻ Cerrar la app** en el menú de la izquierda (cerrar l
 
 ## Desinstalar
 
-*Configuración de Windows › Aplicaciones › Aplicaciones instaladas › Presupuestea › Desinstalar.*
-Tus datos **no se borran**: siguen en `%LOCALAPPDATA%\Presupuestea\datos` por si vuelves a instalarla.
+- **Windows**: *Configuración › Aplicaciones › Aplicaciones instaladas › Presupuestea › Desinstalar.*
+- **Mac**: arrastra Presupuestea de Aplicaciones a la Papelera.
+
+Tus datos **no se borran** (Windows: `%LOCALAPPDATA%\Presupuestea\datos`; Mac: `~/Library/Application Support/Presupuestea/datos`)
+por si vuelves a instalarla.
 
 ## Documentación
 

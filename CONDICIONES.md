@@ -4,7 +4,7 @@
 
 ## 1. Objeto
 
-Estas condiciones regulan la descarga y el uso de **Presupuestea** («la app»), una aplicación para Windows de seguimiento del presupuesto familiar, desarrollada por **Xavier Andreu** (persona física). Al instalar o usar la app aceptas estas condiciones.
+Estas condiciones regulan la descarga y el uso de **Presupuestea** («la app»), una aplicación para Windows y Mac de seguimiento del presupuesto familiar, desarrollada por **Xavier Andreu** (persona física). Al instalar o usar la app aceptas estas condiciones.
 
 ## 2. Licencia de uso
 
